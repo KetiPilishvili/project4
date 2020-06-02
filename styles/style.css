@@ -27,8 +27,7 @@ header {
 	float: right;
 	margin-right: 56px;
 	margin-top: 49px;
-	display: inline-block;
-	vertical-align:top;
+	height: 151px;
 }
 .navbar-li {
 	display: inline-block;
@@ -42,10 +41,48 @@ a {
 	color: white;
 
 }
-.article{
-	width: 10%;
-	height: 10%;
-	margin-bottom: 80px;
-	margin-left: 72px;
-	background: #FCEE21;
+.article1{
+	float: left;
+    width: 600px;
+    height: 321px;
+    margin-top: 152px;
+    margin-left: 35px;
+    background: #FCEE21;
+}
+
+.first-img {
+	float: right;
+    margin-top: 18px;
+    margin-right: 32px;
+    margin-left: 10px;
+    display: block;
+}
+.text {
+	font-family:Segoe UI;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 10px;
+	display: block;
+}
+.second-img {
+	float: left;
+    margin-top: 18px;
+    margin-left: 32px;
+    margin-right: 10px;
+    display: block;
+}
+.text1{
+	color: #006837;
+	font-family:Segoe UI;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+ .article2{
+    float: right;
+    width: 600px;
+    height: 321px;
+    margin-right: 35px;
+    background: #FCEE21;
+    margin-top: 30px;
 }
