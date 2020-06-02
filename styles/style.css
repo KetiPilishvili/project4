@@ -1,0 +1,51 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	padding: 2%;
+}
+.title{
+	font-family:'MyriadPro-Regular';
+	font-size: 18px;
+	margin-left:45%;
+}
+
+header {
+	width: 100%;
+	height: 100%;
+	padding: 0.3%;
+	background: #006837;
+}
+.box{
+	background: #56836F;
+	width: 100%;
+	height: 100%;
+	padding: 0.2%;
+}
+.logo{
+	float: right;
+	margin-right: 56px;
+	margin-top: 49px;
+	display: inline-block;
+	vertical-align:top;
+}
+.navbar-li {
+	display: inline-block;
+	vertical-align:top;
+	margin-top: 3%;
+	padding-left: 8%
+}
+a {
+	font-family:'MyriadPro-Regular';
+	font-size: 40px;
+	color: white;
+
+}
+.article{
+	width: 10%;
+	height: 10%;
+	margin-bottom: 80px;
+	margin-left: 72px;
+	background: #FCEE21;
+}
