@@ -46,11 +46,13 @@ a {
 	font-size: 40px;
 	color: white;
 }
+.articles-container{
+	margin-top: 12%
+}
 .article-items1 {
 	float: left;
     width: 46%;
     height: 54%;
-    margin-top: 12%;
     margin-left: 3%;
     background: #FCEE21;
     display: block;
@@ -87,7 +89,6 @@ a {
     width: 46%;
     height: 54%;
     margin-right: 3%;
-    margin-top: 6%;
     background: #FCEE21;
     display: block;
 }
