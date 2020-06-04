@@ -24,8 +24,8 @@ header {
 }
 .logo{
 	float: right;
-    margin-right: 4%;
-    margin-top: 4%;
+    margin-right: 5%;
+    margin-top: 3%;  
     height: 19.3%;
 }
 .main-board{
@@ -34,7 +34,7 @@ header {
 .navbar-li {
 	display: inline-block;
 	vertical-align:top;
-	margin-top: 4%;
+	margin-top: 3%;
 }
 .navbar-li:before{
 	content: "";
@@ -50,7 +50,7 @@ a {
 	float: left;
     width: 46%;
     height: 54%;
-    margin-top: 11%;
+    margin-top: 12%;
     margin-left: 3%;
     background: #FCEE21;
     display: block;
@@ -87,7 +87,7 @@ a {
     width: 46%;
     height: 54%;
     margin-right: 3%;
-    margin-top: 5.5%;
+    margin-top: 6%;
     background: #FCEE21;
     display: block;
 }
