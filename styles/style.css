@@ -10,7 +10,6 @@ body{
 	font-size: 18px;
 	margin-left:45%;
 }
-
 header {
 	width: 100%;
 	height: 100%;
@@ -18,71 +17,76 @@ header {
 	background: #006837;
 }
 .box{
-	background: #56836F;
 	width: 100%;
 	height: 100%;
 	padding: 0.2%;
+	background: #56836F;
 }
 .logo{
 	float: right;
-	margin-right: 56px;
-	margin-top: 49px;
-	height: 151px;
+    margin-right: 4%;
+    margin-top: 4%;
+    height: 19.3%;
+}
+.main-board{
+	margin-left: 15%;
 }
 .navbar-li {
 	display: inline-block;
 	vertical-align:top;
-	margin-top: 3%;
-	padding-left: 8%
+	margin-top: 4%;
+}
+.navbar-li:before{
+	content: "";
+	display: inline-block;
+	width: 45px;
 }
 a {
 	font-family:'MyriadPro-Regular';
 	font-size: 40px;
 	color: white;
-
 }
-.article1{
+.article-items1 {
 	float: left;
-    width: 600px;
-    height: 321px;
-    margin-top: 152px;
-    margin-left: 35px;
+    width: 46%;
+    height: 54%;
+    margin-top: 12%;
+    margin-left: 3%;
     background: #FCEE21;
 }
 
 .first-img {
 	float: right;
-    margin-top: 18px;
-    margin-right: 32px;
-    margin-left: 10px;
-    display: block;
+    margin-top: 2.3%;
+    margin-right: 2.3%;
+    margin-left: 2%;
 }
 .text {
-	font-family:Segoe UI;
-	font-size: 14px;
-	margin-top: 20px;
-	margin-left: 10px;
-	display: block;
+	font-family: Segoe UI;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .second-img {
 	float: left;
-    margin-top: 18px;
-    margin-left: 32px;
-    margin-right: 10px;
-    display: block;
+    margin-top: 2.3%;
+    margin-right: 2%;
+    margin-left: 2.3%;
 }
 .text1{
 	color: #006837;
 	font-family:Segoe UI;
 	font-size: 14px;
-	margin-top: 20px;
-	margin-left: 10px;
+	margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
- .article2{
-    float: right;
-    width: 600px;
-    height: 321px;
-    margin-right: 35px;
+ .article-items2{
+ 	float: right;
+    width: 46%;
+    height: 54%;
+    margin-right: 3%;
+    margin-top: 6%;
     background: #FCEE21;
-    margin-top: 30px;
 }
