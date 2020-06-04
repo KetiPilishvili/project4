@@ -50,11 +50,11 @@ a {
 	float: left;
     width: 46%;
     height: 54%;
-    margin-top: 12%;
+    margin-top: 11%;
     margin-left: 3%;
     background: #FCEE21;
+    display: block;
 }
-
 .first-img {
 	float: right;
     margin-top: 2.3%;
@@ -87,6 +87,7 @@ a {
     width: 46%;
     height: 54%;
     margin-right: 3%;
-    margin-top: 6%;
+    margin-top: 5.5%;
     background: #FCEE21;
+    display: block;
 }
