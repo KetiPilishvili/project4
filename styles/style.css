@@ -47,15 +47,14 @@ a {
 	color: white;
 }
 .articles-container{
-	margin-top: 12%
+	margin-top: 12%;
 }
 .article-items1 {
 	float: left;
     width: 46%;
-    height: 54%;
+    padding-bottom: 1%;
     margin-left: 3%;
     background: #FCEE21;
-    display: block;
 }
 .first-img {
 	float: right;
@@ -87,8 +86,7 @@ a {
  .article-items2{
  	float: right;
     width: 46%;
-    height: 54%;
     margin-right: 3%;
+    padding-bottom: 1%;
     background: #FCEE21;
-    display: block;
 }
