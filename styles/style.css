@@ -2,25 +2,19 @@ html,body{
 	width: 100%;
 	height: 100%;
 }
-body{
-	padding: 2%;
+body {
+	padding: 1% 2.5% 2.5% 2.5%
 }
 .title{
 	font-family:'MyriadPro-Regular';
 	font-size: 18px;
-	margin-left:45%;
+	text-align: center;
 }
-header {
-	width: 100%;
+.background{
 	height: 100%;
-	padding: 0.3%;
-	background: #006837;
-}
-.box{
 	width: 100%;
-	height: 100%;
-	padding: 0.2%;
-	background: #56836F;
+	background-color: #56836F;
+	border: 4px solid #006837;
 }
 .logo{
 	float: right;
@@ -28,17 +22,22 @@ header {
     margin-top: 3%;  
     height: 19.3%;
 }
-.main-board{
+nav {
 	margin-left: 15%;
+	float: right;
+}
+header:after{
+	content: "";
+	clear: right;
+	display: block;
 }
 .navbar-li {
 	display: inline-block;
-	vertical-align:top;
-	margin-top: 3%;
+	margin-top: 6%;
 }
-.navbar-li:before{
+.navbar-li:after {
 	content: "";
-	display: inline-block;
+	display:inline-block;
 	width: 45px;
 }
 a {
@@ -47,13 +46,18 @@ a {
 	color: white;
 }
 .articles-container{
-	margin-top: 12%;
+	max-width: 1160px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
 }
 .article-items1 {
 	float: left;
-    width: 46%;
-    padding-bottom: 1%;
-    margin-left: 3%;
+    width: 617px;
+    margin-top: 3%;
     background: #FCEE21;
 }
 .first-img {
@@ -85,8 +89,7 @@ a {
 }
  .article-items2{
  	float: right;
-    width: 46%;
-    margin-right: 3%;
-    padding-bottom: 1%;
+    width: 520px;
+    margin-top: 3%;
     background: #FCEE21;
 }
